@@ -1,0 +1,11 @@
+.card__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    max-width: 448px;
+    margin-bottom: 27px;
+    width: 98%;
+}
+
+.card__paragraph:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px 32px;
+    padding-bottom: 80px;
+}
+
+.card:last-child {
+    padding-bottom: 0;
+}
