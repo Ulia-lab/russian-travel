@@ -7,7 +7,8 @@
 }
 
 @media screen and (max-width: 320px) {
-    .lead__map {
+    .lead {
+        margin-left: 16px;
         margin-bottom: 64px;
     }
 }
