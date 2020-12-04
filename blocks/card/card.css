@@ -9,3 +9,18 @@
 .card:last-child {
     padding-bottom: 0;
 }
+
+@media screen and (min-width: 1280px) {
+    .card {
+        gap: 48px 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card {
+        grid-template-columns: minmax(min-content, max-content);
+        grid-template-rows: minmax(min-content, max-content);
+        gap: 32px 0;
+        padding-bottom: 49px;
+    }
+}

@@ -2,3 +2,9 @@
     align-self: end;
     justify-self: start;
 }
+
+@media screen and (max-width: 320px) {
+    .card__website {
+        display: none;
+    }
+}

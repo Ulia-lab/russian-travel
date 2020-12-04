@@ -9,3 +9,25 @@
 .card__paragraph:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 1280px) {
+    .card__paragraph {
+        max-width: 484px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 288px;
+        margin: 0 auto;
+
+    }
+}

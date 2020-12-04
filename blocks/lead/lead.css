@@ -1,6 +1,13 @@
 .lead {
-    width: 928px;
+    max-width: 928px;
     color: #fff;
     margin: 0 auto 92px;
+    margin-left: 148px;
     position: relative;
+}
+
+@media screen and (max-width: 320px) {
+    .lead__map {
+        margin-bottom: 64px;
+    }
 }

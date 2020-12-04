@@ -5,7 +5,31 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin-bottom: 32px;
     max-width: 560px;
     text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        top: 245px;
+        left: 312px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        top: 92px;
+        left: 104px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+        max-height: 70px;
+        top: 33px;
+        left: 16px;
+    }
 }

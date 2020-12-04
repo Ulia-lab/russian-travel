@@ -5,3 +5,26 @@
     margin-left: 48px;
     margin-bottom: 48px;
 }
+
+@media screen and (min-width: 1280px) {
+    .header__logo {
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        margin-left: 24px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-bottom: 48px;
+        width: 144px;
+        height: 42px;
+    }
+}

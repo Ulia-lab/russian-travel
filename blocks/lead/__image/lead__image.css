@@ -1,5 +1,28 @@
 .lead__image {
     max-width: 928px;
-    height: 580px;
+    max-height: 580px;
     z-index: 1;
+    object-fit:cover;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+        max-width: 984px;
+        max-height: 615px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100%;
+        max-width: 768px;
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        width: 100%;
+    }
 }

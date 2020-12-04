@@ -2,7 +2,7 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 62.5vw;
     padding: 22px 16px 20px 16px;
     box-sizing: border-box;
@@ -22,4 +22,11 @@
 
 .cover:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-bottom: 64px;
+        padding: 0;
+    }
 }
