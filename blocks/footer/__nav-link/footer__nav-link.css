@@ -11,6 +11,10 @@
     margin-right: 0;
 }
 
+.footer__nav-link:hover {
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 320px) {
     .footer__nav-link {
         margin-right: 0px;
