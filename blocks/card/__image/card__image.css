@@ -1,10 +1,22 @@
 .card__image {
     max-width: 440px;
-    max-height: 440px;
+}
+
+@media screen and (max-width: 900px) {
+    .card__image {
+        max-width: 340px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .card__image {
+        max-width: 767px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card__image {
+        max-width: 425px;
     }
 }

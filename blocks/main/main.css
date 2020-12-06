@@ -9,13 +9,11 @@
 @media screen and (max-width: 768px) {
     .main {
         max-width: 768px;
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 425px) {
     .main {
         max-width: 425px;
-        width: 100%;
     }
 }

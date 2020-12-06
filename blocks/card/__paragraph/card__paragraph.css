@@ -18,12 +18,26 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 900px) {
     .card__paragraph {
         font-size: 16px;
         line-height: 26px;
-        max-width: 345px;
+        max-width: 352px;
+        min-width: 300px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .card__paragraph {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card__paragraph {
+        max-width: none;
+        width: 100%;
+        }
 }
 
 @media screen and (max-width: 425px) {
