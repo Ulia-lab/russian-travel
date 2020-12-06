@@ -31,7 +31,7 @@
         margin-left: 16px;
         margin-right: 16px;
         margin-bottom: 64px;
-        min-width: 288px;
+        min-width: 200px;
         grid-template-columns: minmax(min-content, max-content);
         grid-template-rows: minmax(min-content, max-content);
         gap: 12px;
