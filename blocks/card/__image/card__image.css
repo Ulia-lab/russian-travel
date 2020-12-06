@@ -3,16 +3,10 @@
     max-height: 440px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .card__image {
+        width: 100%;
         max-width: 340px;
         max-height: 340px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .card__image {
-        max-width: 320px;
-        max-height: 320px;
     }
 }

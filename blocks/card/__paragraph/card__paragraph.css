@@ -18,14 +18,15 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .card__paragraph {
         font-size: 16px;
         line-height: 26px;
+        max-width: 345px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .card__paragraph {
         max-width: 288px;
         margin: 0 auto;

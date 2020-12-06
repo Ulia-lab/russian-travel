@@ -15,7 +15,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__nav-link {
         margin-right: 0px;
         margin-bottom: 32px;

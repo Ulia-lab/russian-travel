@@ -1,6 +1,6 @@
 .cover__title {
     margin: auto auto 32px;
-    padding: 0;
+    padding-top: 225px;
     z-index: 3;
     font-weight: 900;
     font-size: 72px;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
