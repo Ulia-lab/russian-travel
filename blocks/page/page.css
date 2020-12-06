@@ -3,4 +3,5 @@
     font-family: Inter, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #fff;
+    min-width: 320px;
 }
